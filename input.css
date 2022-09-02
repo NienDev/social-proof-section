@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+}
+
+.text-primary{
+  color: var(--very-dark-magenta);
+}
+
+.text-verify{
+  color: var(--soft-pink);
+}
+
+.p-dark{
+  color: var(--dark-grayish-magenta);
+}
+
+.bg-dark{
+  background-color: var(--dark-grayish-magenta);
+}
+.bg-primary{
+  background-color: var(--very-dark-magenta);
+}
+
+.bg-light{
+  background-color: var(--light-grayish-magenta);
+}
+
+.p-light{
+  color: var(--light-grayish-magenta);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
